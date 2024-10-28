@@ -1,0 +1,40 @@
+<variant
+    name="release"
+    package="com.example.medoloc"
+    minSdkVersion="21"
+    targetSdkVersion="34"
+    shrinking="true"
+    mergedManifest="D:\part_time\medoloc_app\code\Medoloc\build\app\intermediates\merged_manifest\release\AndroidManifest.xml"
+    proguardFiles="D:\part_time\medoloc_app\code\Medoloc\build\app\intermediates\default_proguard_files\global\proguard-android.txt-7.3.0;C:\src\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro"
+    partialResultsDir="D:\part_time\medoloc_app\code\Medoloc\build\app\intermediates\lint_vital_partial_results\release\out"
+    desugaredMethodsFiles="C:\Users\sadiy\.gradle\caches\transforms-3\13d6fd4b24902e7bf0c002e0604c40a1\transformed\D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\main\kotlin"
+        resDirectories="src\main\res"
+        assetsDirectories="src\main\assets"/>
+    <sourceProvider
+        manifest="src\release\AndroidManifest.xml"
+        javaDirectories="src\release\java;src\release\kotlin"
+        resDirectories="src\release\res"
+        assetsDirectories="src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="D:\part_time\medoloc_app\code\Medoloc\build\app\intermediates\javac\release\classes;D:\part_time\medoloc_app\code\Medoloc\build\app\tmp\kotlin-classes\release;D:\part_time\medoloc_app\code\Medoloc\build\app\kotlinToolingMetadata;D:\part_time\medoloc_app\code\Medoloc\build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
+      applicationId="com.example.medoloc"
+      generatedSourceFolders="D:\part_time\medoloc_app\code\Medoloc\build\app\generated\ap_generated_sources\release\out;D:\part_time\medoloc_app\code\Medoloc\build\app\generated\aidl_source_output_dir\release\out;D:\part_time\medoloc_app\code\Medoloc\build\app\generated\source\buildConfig\release;D:\part_time\medoloc_app\code\Medoloc\build\app\generated\renderscript_source_output_dir\release\out"
+      generatedResourceFolders="D:\part_time\medoloc_app\code\Medoloc\build\app\generated\res\rs\release;D:\part_time\medoloc_app\code\Medoloc\build\app\generated\res\resValues\release">
+  </mainArtifact>
+</variant>

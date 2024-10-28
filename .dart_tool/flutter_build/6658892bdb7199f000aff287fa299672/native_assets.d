@@ -1,0 +1,1 @@
+ D:\\part_time\\medoloc_app\\code\\Medoloc\\.dart_tool\\flutter_build\\6658892bdb7199f000aff287fa299672\\native_assets.yaml: 
